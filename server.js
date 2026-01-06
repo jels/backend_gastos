@@ -12,7 +12,7 @@ const DATA_FILE = path.join(__dirname, "data", "gastos.json");
 const corsOptions = {
   origin: [
     "http://localhost:4200",
-    "https://tu-app.netlify.app", // Cambiar después del deploy
+    "https://dazzling-sorbet-d9b757.netlify.app", // Cambiar después del deploy
     /\.netlify\.app$/, // Permitir todos los subdominios de netlify
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
